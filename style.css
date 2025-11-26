@@ -322,11 +322,11 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
+    white-space: nowrap;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #FFFFFF;
-    white-space: nowrap;
 }
 
 .booking-image {
@@ -895,5 +895,6 @@ body {
         padding-right: 8px;
     }
 }
+
 
 
