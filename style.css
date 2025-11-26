@@ -370,6 +370,21 @@ body {
 }
 
 @media (max-width: 1200px) {
+      .car-image {
+        height: auto;
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .car-image img {
+        width: auto;
+        max-width: 90%;
+        height: auto;
+        max-height: 240px;
+        object-fit: contain; 
+    }
     .car-card {
         max-width: 350px;
     }
@@ -384,7 +399,39 @@ body {
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
+    .btn-submit span {
+        white-space: nowrap;
+    }
+    
+     .car-features {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        height: auto;
+        padding: 0 10px;
+    }
+    
+    .feature-item {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+    
+    .feature-text {
+        font-size: 14px;
+        line-height: 16px;
+        height: auto;
+        min-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .car-card {
+        height: auto;
+        min-height: 473px;
+        padding-bottom: 20px;
+    }
     .fleet-title, .booking-title {
         font-size: 50px;
         line-height: 60px;
@@ -434,6 +481,13 @@ body {
 }
 
 @media (max-width: 768px) {
+    .btn-submit span {
+        white-space: nowrap;
+    }
+    
+    .booking-form {
+        max-width: 100%;
+    }
     .fleet-title, .booking-title {
         font-size: 40px;
         line-height: 50px;
@@ -562,6 +616,40 @@ body {
     }
 }
 @media (max-width: 480px) {
+     .fleet-section .row.g-4 {
+        gap: 20px;
+    }
+    
+    .car-card {
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        padding: 20px 15px;
+        margin-bottom: 25px;
+    }
+    
+    .car-image {
+        margin-bottom: 20px;
+    }
+    
+    .car-name {
+        margin-bottom: 15px;
+    }
+    
+    .btn-book {
+        margin-top: 15px;
+    }
+     .car-card {
+        margin-bottom: 30px;
+        padding-bottom: 25px;
+    }
+    
+    .car-image {
+        margin-bottom: 15px;
+    }
+    
+    .btn-book {
+        margin-top: 10px;
+    }
     .hero-title {
         font-size: 32px;
     }
