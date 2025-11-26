@@ -326,6 +326,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #FFFFFF;
+    white-space: nowrap;
 }
 
 .booking-image {
@@ -894,4 +895,5 @@ body {
         padding-right: 8px;
     }
 }
+
 
