@@ -493,4 +493,76 @@ body {
     .booking-form, .form-input, .btn-submit {
         width: 100%;
     }
+
+}
+@media (max-width: 320px) {
+    .hero-section {
+    height: 705px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-top: 89px;
+    }
+    .booking-section {
+        padding: 100px 0;
+        background-color: #ffffff;
+    }
+    .fleet-section, .booking-section {
+        padding: 50px 0;
+    }
+    
+    .fleet-title, .booking-title {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .car-name {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .car-features {
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+    }
+    
+    .feature-item {
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        justify-content: flex-start;
+        gap: 15px;
+    }
+    
+    .feature-icon {
+        margin-bottom: 0;
+        flex-shrink: 0;
+    }
+    
+    .feature-text {
+        width: auto;
+        height: auto;
+        justify-content: flex-start;
+    }
+    
+    .btn-book span, .btn-hero span, .btn-submit span {
+        font-size: 14px;
+    }
+    
+    .hero-section {
+        height: auto;
+        padding: 50px 0;
+        margin-top: 0;
+    }
+    
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .booking-form, .form-input, .btn-submit {
+        width: 100%;
+    }
 }
